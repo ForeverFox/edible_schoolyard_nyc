@@ -1,0 +1,4 @@
+<script src="https://use.typekit.net/ogd2pjb.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+font-family: "tarzana-narrow", sans-serif;

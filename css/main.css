@@ -95,7 +95,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Navigation */   
+.main-nav {
+	
+}
 
+/* Header */
+
+.page-header {
+	
+}
+
+.hero {
+	
+}
+
+
+/* Page Sections */
+
+.page-section {
+	
+}
+
+
+/* Page Content */
+
+.feature {
+	
+}
+
+.thumb {
+	
+}
+
+.btn {
+	
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Form */
+
+input[type=text] {
+	
+}
+
+input[type=text]:focus {
+	border: 1px solid green;
+}
+
+input[type=number] {
+	
+}
+
+input[type=number]:focus {
+	border: 1px solid green;
+}
+
+/* Footer */
+
+.page-footer {
+	
+}
 
 
 

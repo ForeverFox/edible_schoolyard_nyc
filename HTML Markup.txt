@@ -1,0 +1,173 @@
+<header class="page-header">
+	<nav class="main-nav">
+	
+	</nav>
+	
+	<figure>
+	</figure>
+	
+	<button>
+	</button>
+	
+	<i></i>
+	<i></i>
+	<i></i>
+	
+</header>
+
+<section class="hero">
+<h1>Your Support Keeps us Growing!</h1>
+
+<button>Donate Now</button>
+<button>Read Kendell's Story</button>
+
+</section>
+
+<section class="page-section">
+	<p>Edible Schoolyard NYC partners with public schools to transform the hearts, minds, and eating habits of young New Yorkers through garden and kitchen classes integrated into the school day.</p>
+
+	<h5><a href="#!">Our Programs</a></h5>
+</section>
+
+<section class="page section">
+	<h2>Explore Our Programs</h2>
+
+	<article class="feature">
+		<h3>Demonstration Schools</h3>
+
+		<p>Demonstration Schools are the model for our seed-to-table education, inspirational hubs for teacher training citywide.</p>
+
+		<h5><a href="#!">Learn More</a>
+		
+	</article>
+
+	<article class="feature">
+		<h3>Network Schools</h3>
+
+		<p>Network Schools expand on the Demonstration School model to make food education accessible to even more NYC kids.</p>
+
+		<h5><a href="#!">Learn More</a></h5>
+		
+	</article>
+
+	<article class="feature">
+		<h3>Professional Development</h3>
+
+		<p>Educators are invited to our Demonstration Schools to learn how to implement our curriculum in their
+	own classrooms.</p>
+
+		<h5><a href="#!">Learn More</a></h5>
+
+	</article>
+</section>
+
+<section class="page-section">
+	<h2>Our Impact</h2>
+
+	<p><q>So many problems are tied together, and they could all be solved by having a school garden.</q></p>
+
+	<p>Fifth grader at P.S. 216</p>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<h5><a href="#!">Learn More About Our Impact</a></h5>
+
+</section>
+
+<section class="page-section">
+	<h2>From The Schoolyard</h2>
+
+	<p>@esynyc</p>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<figure>
+	</figure>
+
+	<h5></a href="#!">Follow Us On Instagram</a></h5>
+
+</section>
+
+<aside class="page-aside">
+	<h4>From The Press</h4>
+	
+	<figure>
+	</figure>
+	
+	<p>Watch Edible Schoolyard NYC students, teachers, and staff talk with Frank Pinello about gardening, cooking, eating, and community in East Harlem.</p>
+
+	<h5><a href="#!">Read More Press</a></h5>
+
+</aside>
+
+<aside class="page-aside">>
+	<h4>Special Thanks to Our Featured Partner
+
+	<figure>
+	</figure>
+
+	<h5><a href="#!>View All Friends & Supporters</a></h5>
+
+</aside>
+
+<footer class="page-footer">
+	<h2>Join Our Mailing List</h2>
+
+	<p>Sign up to receive updates about our programs, events, workshops, and more.</p>
+
+	<form>
+		First Name
+		Last Name
+		Email
+		Zip Code
+		<button>Subscribe</button>
+	</form>
+
+    <h5><a href=#!">Contact Us</a></h5> 
+	<h5><a href=#!">Come See Us</a></h5>
+	<h5><a href=#!">Press</a></h5> 
+	<h5><a href=#!">Careers</a></h5>
+	<i></i>
+	<i></i>
+	<i></i>
+
+	<p>© Copyright 2016 Edible Schoolyard NYC. All rights reserved. <a href="#!">Terms of Use</a> and <a href="#!">Privacy Policy</a>. <a href="#!">Site Credits</a>.
+</footer>
