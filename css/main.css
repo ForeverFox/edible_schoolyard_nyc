@@ -9,11 +9,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand|Raleway:300,400');
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+@font-face {
+	font-family: Intro; 
+	src: url(../fonts/Intro.otf);
+	font-weight: normal;
 }
 
 /*
@@ -94,31 +95,242 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Globals */
+body {
+	font-family: tarzana-narrow, sans-serif;
+	font-size: 1em;
+	line-height: 1.6;
+}
+  
+img {
+	max-width: 100%;
+}  
+  
+p {
+	font-family: tarzana-narrow, sans-serif;
+	font-size: 1.2em;
+}  
+   
+h1 {
+	font-family: Intro, sans-serif;
+	font-size: 3em;
+}
+
+h2 {
+	font-family: Josefin Sans, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: tarzana-narrow, sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+h4 {
+	font-family: Josefin Sans, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-family: Josefin Sans, sans-serif;
+	font-size: 0.75em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+a:link {
+	color: #000;
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	color: #08a842;
+}
+
+a:active {
+	
+}
+
+blockquote {
+	font-size: 2.5em;
+}
 
 /* Navigation */   
+
+.menu {
+	padding-top: 2.937em;
+	padding-left: 1.875em;
+	font-size: 1em;
+	color: #000;
+	border-bottom: 1px solid #e6e6e6;
+	margin: 0 3rem;
+}
+
+ul.menu li {
+	list-style-type: none;
+}
+
+.social-media {
+	text-decoration: none;
+	font-size: 1em;
+	display: inline-block;
+	padding-right: 1.625em;
+}
+
+.social-nav {
+	margin: 0 2.25rem;
+}
+
+.social-nav li {
+	list-style-type: none;
+}
+
 .main-nav {
-	
+	margin-top: 6.875rem; 
+	display: none;
+	position: relative;
+	background-color: #fff;
+	font-size: 1em;
+}
+
+.main-nav ul {
+	list-style-type: none;
+}
+
+.main-nav li {
+	margin: 1.5em 0;
+}
+
+.main-nav a {
+	text-decoration: none;
+}
+
+.main-nav .close-icon {
+	font-style: normal;
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+	color: #000;
+	cursor: pointer;
+}
+
+.main-nav li {
+	position: relative;
+}
+
+.nav-open {
+	overflow: auto;
+}
+
+.nav-open .main-nav {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 15%;
+	min-height: 100%;
+}
+
+.nav-open .page-content {
+	transform: translateX(50%);
+}
+
+.nav-open .page-content:before {
+	content: '';
+	display: block;
+	width: 50%;
+	height: 100%;
+	background: hsla(0, 100%, 50%, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 150;
 }
 
 /* Header */
-
 .page-header {
-	
+	width: 100%;
+	height: 6.875em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: #fff;
+	border-bottom: 1px solid #e6e6e6;
 }
 
-.hero {
-	
+.logo {
+	width: 7.375rem;
+	height: 5.25rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url(../img/logo-stacked.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	z-index: 10;
 }
 
+.nav-icon {
+	position: absolute;
+	left: 1.625em;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.menu-nav {
+	position: absolute;
+	left: 2.93em;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.top-icons {
+	position: absolute;
+	right: 0;
+	top: 35%;
+	transform: translateY(-50%);
+	margin-left: 1em;
+	padding: 0;
+}
 
 /* Page Sections */
 
-.page-section {
-	
+.hero {
+	margin-top: 6.875rem;
 }
 
+.intro {
+	font-size: 2em;
+}
+
+.page-section {
+	width: 100%;
+	background-color: #fff;
+}
+
+.page-section-alt {
+	width: 100%;
+	background-color:# ;
+}
 
 /* Page Content */
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
 
 .feature {
 	
@@ -129,11 +341,34 @@ textarea {
 }
 
 .button {
+	background-color: #fff;
+	border: 1px solid #000;
+	color: #000;
+	padding: 0.5rem 1rem;
+	font-size: 0.75em;
+	font-family: Raleway, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background-color: #08a842;
+	border: 1px solid color: #08a842;
+	color: #fff;
+}
+
+/* Aside */
+.page-aside {
 	
 }
 
-img {
-	max-width: 100%;
+.aside-feature-1 {
+	
+}
+
+.aside-feature-2 {
+	
 }
 
 /* Form */
@@ -143,7 +378,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-	border: 1px solid green;
+	border: 1px solid #08a842;
 }
 
 input[type=number] {
@@ -151,7 +386,7 @@ input[type=number] {
 }
 
 input[type=number]:focus {
-	border: 1px solid green;
+	border: 1px solid #08a842;
 }
 
 /* Footer */
