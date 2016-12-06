@@ -169,7 +169,7 @@ a:active {
 
 blockquote {
 	font-size: 2em;
-	width: 45%;
+	width: 50%;
 	margin: 0 auto;
 	
 }
@@ -362,9 +362,9 @@ ul.menu li {
 	height: 34.375em;
 }
 
-.hero h1 {
+.centered h1 {
 	line-height: 1.1;
-	width: 70%;
+	width: 40%;
 	margin: 0 auto;
 	color: #fff;
 	text-align: center;
@@ -386,7 +386,8 @@ ul.menu li {
 	font-weight: bold;
 }
 
-.hero-container {
+.centered {
+	width: 100%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -418,19 +419,33 @@ ul.menu li {
 	padding-bottom: 1.5em;
 }
 
+.page-section h5, .page-section-alt h5 {
+	text-align: center;
+}
+
 /* Page Content */
 
 .container {
-	width: 66%;
+	width: 70%;
 	margin: 0 auto;
 	position: relative;
 }
 
-.container h2 {
+.container h2, .container-alt h2 {
 	margin-top: 5rem;
 }
 
-.container h2, h4 {
+.container h2, .container h4 {
+	text-align: center;
+}
+
+.container-alt {
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.container-alt h2, .container-alt h4, .container-alt h5 {
 	text-align: center;
 }
 
@@ -459,8 +474,19 @@ ul.menu li {
 	left: 2.5rem;
 }
 
+.feature-2 {
+	max-width: 15.5rem;
+	height: auto;
+	position: relative;
+	margin: 5rem 3.91rem 5.93rem 4.375rem;
+	float: left;
+}
+
 .thumb {
-	
+	width: 10.5em;
+	height: 10.5em;
+	float: left;
+	margin: 0 0.93em 0.93em 0.93em;
 }
 
 .button {
