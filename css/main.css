@@ -428,9 +428,12 @@ ul.menu li {
 /* Page Content */
 
 .container {
-	width: 70%;
+	max-width: 75em;
+	height: 100%;
+	padding: 0;
 	margin: 0 auto;
 	position: relative;
+	overflow: auto;
 }
 
 .container h2, .container-alt h2 {
@@ -442,9 +445,11 @@ ul.menu li {
 }
 
 .container-alt {
-	width: 60%;
+	max-width: 60%;
+	height: 100%;
 	margin: 0 auto;
 	position: relative;
+	overflow: auto;
 }
 
 .container-alt h2, .container-alt h4, .container-alt h5 {
