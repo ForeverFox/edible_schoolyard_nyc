@@ -516,41 +516,71 @@ ul.menu li {
 
 /* Aside */
 .page-aside {
-	
+	max-width: 50em;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 4.937rem;
+	margin-bottom: 4.937rem;
+	overflow: auto;
 }
 
 .aside-feature-1 {
-	
+	width: 18.75rem;
+	height: auto;
+	border-right: 1px solid #e6e6e6;
+	float: left;
+	padding: 0 3rem;
+}
+
+.aside-feature-1 img {
+	width: 13.75rem;
+}
+
+.aside-feature-1 h4, .aside-feature-2 h4 {
+	margin: 1rem 2rem 2rem 2rem;
 }
 
 .aside-feature-2 {
-	
+	width: 18.75rem;
+	height: auto;
+	float: left;
+	padding: 0 3rem;
+}
+
+.aside-feature-2 img {
+	width: 8.75rem;
+	margin-bottom: 3rem;
 }
 
 /* Form */
 
 input[type=text] {
-	
+	border: 1px solid #000;
+	width: 8em;
+	margin-right: 0.5em;
 }
 
 input[type=text]:focus {
 	border: 1px solid #08a842;
 }
 
-input[type=number] {
-	
-}
-
-input[type=number]:focus {
-	border: 1px solid #08a842;
-}
-
 /* Footer */
 
 .page-footer {
-	
+	width: 100%;
+	text-align: center;
 }
 
+.copyright {
+	color: #ccc;
+	font-size: 0.75em;
+}
+
+.copyright a:link {
+	color: #ccc;
+}
 
 
 
