@@ -122,7 +122,7 @@ h1 {
 }
 
 h2 {
-	font-family: Josefin Sans, sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	font-size: 1.33em;
 	font-weight: 700;
 	letter-spacing: 0.16rem;
@@ -137,14 +137,14 @@ h3 {
 }
 
 h4 {
-	font-family: Josefin Sans, sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 	text-transform: uppercase;
 }
 
 h5 {
-	font-family: Josefin Sans, sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	font-size: 0.7em;
 	letter-spacing: 0.06rem;
 	font-weight: 400;
@@ -155,16 +155,8 @@ a:link {
 	color: #000;
 }
 
-a:visited {
-	
-}
-
 a:hover {
 	color: #08a842;
-}
-
-a:active {
-	
 }
 
 blockquote {
