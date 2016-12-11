@@ -95,6 +95,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
 /* Globals */
 body {
 	font-family: tarzana-narrow, sans-serif;
@@ -136,15 +137,17 @@ h3 {
 	line-height: 1.2;
 }
 
-h4 {
+h4, h5 {
 	font-family: "Josefin Sans", sans-serif;
+}
+
+h4 {
 	font-size: 1em;
 	font-weight: 400;
 	text-transform: uppercase;
 }
 
 h5 {
-	font-family: "Josefin Sans", sans-serif;
 	font-size: 0.7em;
 	letter-spacing: 0.06rem;
 	font-weight: 400;
@@ -163,39 +166,9 @@ blockquote {
 	font-size: 2em;
 	width: 50%;
 	margin: 0 auto;
-	
 }
 
 /* Navigation */   
-
-.menu {
-	padding-top: 6.67em;
-	padding-left: 1.875em;
-	font-size: 1em;
-	color: #000;
-	border-bottom: 1px solid #e6e6e6;
-	margin: 0 3rem;
-}
-
-ul.menu li {
-	list-style-type: none;
-}
-
-.social-media {
-	text-decoration: none;
-	font-size: 1em;
-	display: inline-block;
-	padding-right: 1.5em;
-}
-
-.social-nav {
-	margin: 0 2.25rem;
-}
-
-.social-nav li {
-	list-style-type: none;
-}
-
 .main-nav { 
 	display: none;
 	position: fixed;
@@ -254,6 +227,34 @@ ul.menu li {
 	padding: 0;
 }
 
+.menu {
+	padding-top: 6.67em;
+	padding-left: 1.875em;
+	font-size: 1em;
+	color: #000;
+	border-bottom: 1px solid #e6e6e6;
+	margin: 0 3rem;
+}
+
+ul.menu li {
+	list-style-type: none;
+}
+
+.social-media {
+	text-decoration: none;
+	font-size: 1em;
+	display: inline-block;
+	padding-right: 1.5em;
+}
+
+.social-nav {
+	margin: 0 2.25rem;
+}
+
+.social-nav li {
+	list-style-type: none;
+}
+
 /* Header */
 .page-header {
 	width: 100%;
@@ -290,7 +291,6 @@ ul.menu li {
 }
 
 /* .nav-icon transformation -- adapted from http://www.w3schools.com/howto/howto_css_menu_icon.asp */
-
 .nav-icon {
 	display: inline-block;
 	cursor: pointer;
@@ -345,7 +345,6 @@ ul.menu li {
 }
 
 /* Page Sections */
-
 .hero {
 	width: 100%;
 	position: relative;
@@ -365,27 +364,12 @@ ul.menu li {
 	font-weight: normal;
 }
 
-.button-container {
-	position: absolute;
-	bottom: 25%;
-	left: 50%;
-	transform: translate(-50%, -25%);
-}
-
 .hero button {
 	margin-right: 1.25em;
 	background-color: transparent;
 	border: 1px solid #fff;
 	color: #fff;
 	font-weight: bold;
-}
-
-.centered {
-	width: 100%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 
 .intro {
@@ -418,7 +402,6 @@ ul.menu li {
 }
 
 /* Page Content */
-
 .container {
 	max-width: 75em;
 	height: 100%;
@@ -506,6 +489,21 @@ ul.menu li {
 	color: #fff;
 }
 
+.centered {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.button-container {
+	position: absolute;
+	bottom: 25%;
+	left: 50%;
+	transform: translate(-50%, -25%);
+}
+
 /* Aside */
 .page-aside {
 	max-width: 58em;
@@ -547,7 +545,6 @@ ul.menu li {
 }
 
 /* Form */
-
 .form-wrapper {
 	display: inline-block;
 	margin: 0;
@@ -565,7 +562,6 @@ input[type=text]:focus {
 }
 
 /* Footer */
-
 .page-footer {
 	width: 100%;
 	text-align: center;
@@ -592,15 +588,6 @@ input[type=text]:focus {
 	color: #fff;
 	margin-top: 1rem;
 }
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
